@@ -1,5 +1,9 @@
 [
     {
+        "merged": "E:\\Projet\\Android\\NotePad-master-141\\app\\build\\intermediates\\res\\merged\\debug\\layout\\note_editor.xml",
+        "source": "E:\\Projet\\Android\\NotePad-master-141\\app\\src\\main\\res\\layout\\note_editor.xml"
+    },
+    {
         "merged": "D:\\Android project\\NotePad-master-22\\app\\build\\intermediates\\res\\merged\\debug\\layout\\note_editor.xml",
         "source": "D:\\Android project\\NotePad-master-22\\app\\src\\main\\res\\layout\\note_editor.xml"
     },
@@ -16,6 +20,14 @@
         "source": "D:\\Android project\\NotePad-master-22\\app\\src\\main\\res\\layout\\search_by_title.xml"
     },
     {
+        "merged": "E:\\Projet\\Android\\NotePad-master-22\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_by_title.xml",
+        "source": "E:\\Projet\\Android\\NotePad-master-22\\app\\src\\main\\res\\layout\\search_by_title.xml"
+    },
+    {
+        "merged": "E:\\Projet\\Android\\NotePad-master-141\\app\\build\\intermediates\\res\\merged\\debug\\layout\\noteslist_item.xml",
+        "source": "E:\\Projet\\Android\\NotePad-master-141\\app\\src\\main\\res\\layout\\noteslist_item.xml"
+    },
+    {
         "merged": "D:\\Android project\\Android_NotePad\\NotePad-master-22\\app\\build\\intermediates\\res\\merged\\debug\\layout\\note_editor.xml",
         "source": "D:\\Android project\\Android_NotePad\\NotePad-master-22\\app\\src\\main\\res\\layout\\note_editor.xml"
     },
@@ -24,11 +36,31 @@
         "source": "D:\\Android project\\Android_NotePad\\NotePad-master-22\\app\\src\\main\\res\\layout\\title_editor.xml"
     },
     {
+        "merged": "E:\\Projet\\Android\\NotePad-master-22\\app\\build\\intermediates\\res\\merged\\debug\\layout\\noteslist_item.xml",
+        "source": "E:\\Projet\\Android\\NotePad-master-22\\app\\src\\main\\res\\layout\\noteslist_item.xml"
+    },
+    {
+        "merged": "E:\\Projet\\Android\\NotePad-master-22\\app\\build\\intermediates\\res\\merged\\debug\\layout\\note_editor.xml",
+        "source": "E:\\Projet\\Android\\NotePad-master-22\\app\\src\\main\\res\\layout\\note_editor.xml"
+    },
+    {
+        "merged": "E:\\Projet\\Android\\NotePad-master-22\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_editor.xml",
+        "source": "E:\\Projet\\Android\\NotePad-master-22\\app\\src\\main\\res\\layout\\title_editor.xml"
+    },
+    {
+        "merged": "E:\\Projet\\Android\\NotePad-master-141\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_by_title.xml",
+        "source": "E:\\Projet\\Android\\NotePad-master-141\\app\\src\\main\\res\\layout\\search_by_title.xml"
+    },
+    {
         "merged": "D:\\Android project\\Android_NotePad\\NotePad-master-22\\app\\build\\intermediates\\res\\merged\\debug\\layout\\search_by_title.xml",
         "source": "D:\\Android project\\Android_NotePad\\NotePad-master-22\\app\\src\\main\\res\\layout\\search_by_title.xml"
     },
     {
         "merged": "D:\\Android project\\Android_NotePad\\NotePad-master-22\\app\\build\\intermediates\\res\\merged\\debug\\layout\\noteslist_item.xml",
         "source": "D:\\Android project\\Android_NotePad\\NotePad-master-22\\app\\src\\main\\res\\layout\\noteslist_item.xml"
+    },
+    {
+        "merged": "E:\\Projet\\Android\\NotePad-master-141\\app\\build\\intermediates\\res\\merged\\debug\\layout\\title_editor.xml",
+        "source": "E:\\Projet\\Android\\NotePad-master-141\\app\\src\\main\\res\\layout\\title_editor.xml"
     }
 ]

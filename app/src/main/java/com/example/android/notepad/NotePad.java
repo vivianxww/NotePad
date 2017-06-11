@@ -28,7 +28,7 @@ import android.provider.BaseColumns;
 public final class NotePad {
     public static final String AUTHORITY = "com.google.provider.NotePad";
 
-    // This class cannot be instantiated
+    // This class cannot be instantiated                                                                                                                                                                扩扩扩扩扩扩扩扩扩扩扩扩扩扩扩扩扩扩扩扩吗
     private NotePad() {
     }
 

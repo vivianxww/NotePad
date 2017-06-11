@@ -280,6 +280,7 @@ public class NotesList extends ListActivity {
            */
            startActivity(new Intent(Intent.ACTION_INSERT, getIntent().getData()));
            return true;
+        // 粘贴
         case R.id.menu_paste:
           /*
            * Launches a new Activity using an Intent. The intent filter for the Activity
@@ -491,8 +492,7 @@ public class NotesList extends ListActivity {
     //-----------------------------
 
     /**
-     * 本方法用于引用布局文件并且
-     * 引用Search()方法(新增)进行查询
+     * 本方法用于引用布局文件并引用Search()方法(新增)进行查询
      */
     public void customView( )
     {
@@ -501,7 +501,7 @@ public class NotesList extends ListActivity {
         );
 
 
-        //这里一定要用上面呐喊代码的 search_view.findViewById
+        //这里一定要用上面代码的 search_view.findViewById
         // 不能用this.findViewById因为没有加载 search_by_title.xml 找不到R.id.SearchTitle，
         //结果之后的mText回事NUll
         //但是也不能用setContentView(R.layout.search_by_title) 还是会报错(xml)
@@ -510,13 +510,13 @@ public class NotesList extends ListActivity {
 
 
         new AlertDialog.Builder(this)
-                .setTitle("查询框标题")
+                .setTitle("查询")
                 .setView(search_view)
                 .setPositiveButton("确定", new DialogInterface.OnClickListener() {//设置取消按钮
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         //创建一个·Toast信息
-                        Toast.makeText(NotesList.this,"你选择了确认查询！！",
+                        Toast.makeText(NotesList.this,"查询成功！！",
                                 //设置显示的时间
                                 Toast.LENGTH_SHORT).show();
                         Search();
@@ -528,8 +528,7 @@ public class NotesList extends ListActivity {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         //创建一个·Toast信息
-                        Toast.makeText(NotesList.this,"你选择了取消查询！！",
-                                //设置显示的时间
+                        Toast.makeText(NotesList.this,"取消查询！！",
                                 Toast.LENGTH_SHORT).show();
 
                     }
@@ -600,7 +599,7 @@ public class NotesList extends ListActivity {
 
 
 
-        if (mCursor != null) {//不为空才星星刷新
+        if (mCursor != null) {
 
             System.out.println("刷新页面");
             refresh();

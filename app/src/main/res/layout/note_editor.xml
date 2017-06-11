@@ -18,11 +18,12 @@
     android:id="@+id/note"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/transparent"
+    android:background="@color/小小清新"
     android:padding="5dp"
     android:scrollbars="vertical"
     android:fadingEdge="vertical"
     android:gravity="top"
     android:textSize="22sp"
     android:capitalize="sentences"
-/>
+    android:textColor="#0c6117"
+    android:textColorHighlight="@color/字" />

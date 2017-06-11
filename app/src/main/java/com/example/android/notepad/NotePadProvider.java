@@ -516,7 +516,9 @@ public class NotePadProvider extends ContentProvider implements PipeDataWriter<C
         }
 
         // Gets the current system time in milliseconds
-        Long now = GetTime.Get_Now_Time_Long();
+
+        //Long now = GetTime.Get_Now_Time_Long();
+        String now = GetTime.getNowDate();
 
         // If the values map doesn't contain the creation date, sets the value to the current time.
         if (values.containsKey(NotePad.Notes.COLUMN_NAME_CREATE_DATE) == false) {
@@ -682,7 +684,8 @@ public class NotePadProvider extends ContentProvider implements PipeDataWriter<C
         int count;
         String finalWhere;
 
-        Long now = GetTime.Get_Now_Time_Long();
+        //Long now = GetTime.Get_Now_Time_Long();
+        String now = GetTime.getNowDate();
         values.put(NotePad.Notes.COLUMN_NAME_MODIFICATION_DATE,now);
 
         System.out.println("UPDATE  values== "

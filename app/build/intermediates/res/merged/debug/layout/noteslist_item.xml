@@ -38,26 +38,37 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 android:layout_alignParentRight="true"
 android:layout_width="match_parent"
-android:layout_height="wrap_content"
-android:orientation="vertical">
+android:layout_height="match_parent"
+android:orientation="vertical"
+    android:background="@color/小清新"
+    android:backgroundTintMode="src_over">
 
-    <TextView android:id="@android:id/text1"
-        android:layout_width="wrap_content"
-        android:layout_height="?android:attr/listPreferredItemHeight"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:gravity="left|center_vertical"
-        android:paddingLeft="5dip"
-        android:singleLine="true"
-        android:textSize="25dp"/>
-
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
     <TextView android:id="@android:id/text2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:gravity="right|center_vertical"
-        android:paddingLeft="5dip"
-        android:singleLine="true"
-        android:textSize="15dp"/>
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="right|center_vertical"
+                android:paddingLeft="5dip"
+                android:singleLine="true"
+                android:textSize="15dp"
+                android:textColor="@color/字" />
+
+            <TextView android:id="@android:id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="?android:attr/listPreferredItemHeight"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="5dip"
+                android:singleLine="true"
+                android:textSize="25dp"
+                android:textColor="@color/字" />
+
+    </LinearLayout>
+
 
 </LinearLayout>

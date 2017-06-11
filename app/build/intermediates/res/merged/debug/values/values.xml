@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="字">#196c0b</color>
+    <color name="小小清新">#dff7c2</color>
+    <color name="小清新">#d8f7b2</color>
+    <color name="护眼">#f9ca84</color>
+    <color name="清新">#91f180</color>
     <string name="app_name">NotePad</string>
     <string name="button_ok">OK</string>
     <string name="error_message">Error loading note</string>
