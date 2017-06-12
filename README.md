@@ -98,7 +98,7 @@
     }
 
 
-   （2）新增方法customView()：用于导入布局文件R.layout.search_by_title作为弹出对话框的样式；同时根据用户选择的取消/确认进行事件响应；若选择确认，这使用Search()方法进行查询。 主要代码如下：
+   （2）新增方法customView()：导入布局文件R.layout.search_by_title作为弹出对话框的样式；同时根据用户选择的取消/确认进行事件响应；若选择确认，这使用Search()方法进行查询。 主要代码如下：
 
     public void customView( )
     {
@@ -139,7 +139,7 @@
 
     }
 
-（3）Search()：用于偶去用户输入的查询关键字并且进行数据库的查询，返回mCursor，如果返回值非空，再调用refresh()刷新，重新加载当前页面List项。 主要代码如下：
+（3）Search()：获取用户输入的查询关键字并且进行数据库的查询，返回mCursor，如果返回值非空，再调用refresh()刷新，重新加载当前页面List项。 主要代码如下：
 
     protected void Search() {
 
@@ -180,6 +180,12 @@
             System.out.println("刷新失败 mCursor==NULL");
 
     }
+
+
+![](https://github.com/vivianxww/images/blob/master/CX7.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/CX8.jpg)
+
 
 （4）refresh()：根据查询的结果mCursor，重新加载当前页面List项。 主要代码如下：
 
