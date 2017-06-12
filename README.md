@@ -16,11 +16,47 @@
 
 ###1、 新增便签
 
+![](https://github.com/vivianxww/images/blob/master/XZ1.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/XZ2.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/XZ3.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/XZ4.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/XZ5CX1.jpg)
 
 ###2、 粘贴便签
 
+![](https://github.com/vivianxww/images/blob/master/NT1.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/NT2.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/NT3.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/NT4.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/NT5.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/NT6.jpg)
 
 ###3、 查询便签
+
+![](https://github.com/vivianxww/images/blob/master/XZ5CX1.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/CX2.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/CX3.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/CX4.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/CX5.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/CX6.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/CX7.jpg)
+
+![](https://github.com/vivianxww/images/blob/master/CX8.jpg)
 
 ##二、代码说明
 
