@@ -113,7 +113,7 @@
         new AlertDialog.Builder(this)
                 .setTitle("查询")
                 .setView(search_view)
-                .setPositiveButton("确定", new DialogInterface.OnClickListener() {//设置取消按钮
+                .setPositiveButton("确定", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         //创建一个·Toast信息
@@ -125,7 +125,7 @@
 
                     }
                 })
-                .setNegativeButton("取消", new DialogInterface.OnClickListener() {//设置取消按钮
+                .setNegativeButton("取消", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
                         //创建一个·Toast信息
