@@ -2,7 +2,8 @@
 
 关于NotePad功能介绍以及详细代码说明
 
-实现功能：
+## 实现功能：
+
 **新增便签**
 
 **粘贴便签**
@@ -11,10 +12,10 @@
 
 **模糊查询标题**
 
-##一、功能实现
+## 一、功能实现
 
 
-###1、 新增便签
+### 1、 新增便签
 
 ![](https://github.com/vivianxww/images/blob/master/XZ1.jpg)
 
@@ -26,7 +27,7 @@
 
 ![](https://github.com/vivianxww/images/blob/master/XZ5CX1.jpg)
 
-###2、 粘贴便签
+### 2、 粘贴便签
 
 ![](https://github.com/vivianxww/images/blob/master/NT1.jpg)
 
@@ -40,7 +41,7 @@
 
 ![](https://github.com/vivianxww/images/blob/master/NT6.jpg)
 
-###3、 查询便签
+### 3、 查询便签
 
 ![](https://github.com/vivianxww/images/blob/master/XZ5CX1.jpg)
 
@@ -58,9 +59,9 @@
 
 ![](https://github.com/vivianxww/images/blob/master/CX8.jpg)
 
-##二、代码说明
+## 二、代码说明
 
-###1、时间戳
+### 1、时间戳
 
     使用getNowTime()函数得到当前时间。时间格式为2017-12-13 14：00：00 主要代码如下：
     public class GetTime {
@@ -73,7 +74,7 @@
         return time;
     }
 
-###2、模糊查询标题
+### 2、模糊查询标题
 
    （1）NoteList的onOptionsItemSelected(MenuItem item) 方法中，新增加了menu_Search选项，并且调用customView()方法导入布局文件 主要代码如下：
 
